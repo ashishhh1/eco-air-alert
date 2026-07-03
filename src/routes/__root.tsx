@@ -77,14 +77,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Pollution Guardian AI — See it. Report it. Predict it." },
+      {
+        name: "description",
+        content:
+          "Citizen-powered air pollution reporting: upload a photo, get an instant AI verdict, and watch the plume predicted across your city in real time.",
+      },
+      { property: "og:title", content: "Pollution Guardian AI" },
+      {
+        property: "og:description",
+        content:
+          "See it. Report it. Predict it. — Real-time air pollution reporting powered by citizens and AI.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
